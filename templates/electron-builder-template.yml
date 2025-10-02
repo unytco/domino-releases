@@ -1,6 +1,6 @@
 appId: ____PLACEHOLDER____
 productName: ____PLACEHOLDER____
-copyright: 'Copyright © 2025 unyt.co'
+copyright: 'Copyright © 2024 unyt.co'
 directories:
   buildResources: build
 files:
@@ -29,7 +29,7 @@ mac:
 dmg:
   artifactName: ${name}-${version}-${arch}.${ext}
 linux:
-  appId: 'co.unyt.domino.main'
+  appId: 'co.unyt.unyt.tx5'
   target:
     - AppImage
     - deb
@@ -39,7 +39,7 @@ linux:
   vendor: unyt.co
   synopsis: 'Mutual Credit Accounting System'
   desktop:
-    Name: Domino webrtc
+    Name: Unyt tx5
     Comment: Mutual Credit Accounting System
     Categories: Accounting
 appImage:
@@ -47,10 +47,10 @@ appImage:
 deb:
   description: Mutual Credit Accounting System
   desktop:
-    Name: Domino webrtc
+    Name: Unyt tx5
     Comment: Mutual Credit Accounting System
     Categories: Accounting
-  packageName: Domino webrtc
+  packageName: Unyt tx5
 npmRebuild: false
 # publish:
 #   provider: generic
